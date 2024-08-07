@@ -88,5 +88,5 @@ Agradecemos à DIO pela oportunidade de participar deste desafio!
 ## 🎉 Conecte-se com a gente!
 
 * **DIO:** https://www.dio.me/users/ubaldo3
-* **https://www.linkedin.com/in/umjs/**: LinkedIn
+* **LinkedIn**: https://www.linkedin.com/in/umjs/
 * **#LabDIONattyOrNot**:  Compartilhe seus resultados nas redes sociais com a hashtag!
