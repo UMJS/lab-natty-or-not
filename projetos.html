@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETOS</title>
+    <meta name="description" content="Conheça os projetos da AAPBA para promover a inclusão social e o desenvolvimento do paradesporto na Bahia.">
+    <meta name="keywords" content="AAPBA, projetos, paradesporto, Bahia, inclusão social, desenvolvimento">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="https://yt3.googleusercontent.com/PfgMwk8b1kOHZGDLnR08ZW2IOw60Zq5ffSBbvs7hXLdnGscvMvPD_AMuR3mcPMYGxvAZ-kCqwg=s160-c-k-c0x00ffffff-no-rj" alt="Logo da AAPBA" class="logo">
+            </a>
+            <h1 class="titulo-header">ASSOCIAÇÃO DE ATLETAS PARALÍMPICOS DA BAHIA</h1>
+            <p class="cnpj-header">CNPJ: 28.410.649/0001-08</p>
+        </div>
+        <nav id="menu-h">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projetos">
+            <h2>Nossos Projetos</h2>
+            <div class="carousel">
+               <div class="carousel-item">
+                    <h3>Manual - Oferendas e Despachos para o Povo de Santo do Abaeté</h3>
+                    <p>Preservar e compartilhar a rica herança cultural do Abaeté, enaltecendo as tradições das oferendas e despachos para o povo de santo, buscando promover a coexistência harmoniosa entre as práticas religiosas e a conservação ambiental.</p>
+                </div>
+            
+                <div class="carousel-item">
+                    <h3>Trilha Guiada</h3>
+                    <p>Ampliar o turismo local de forma consciente, promovendo trilhas guiadas no Parque Metropolitano do Abaeté que destacam a rica história, fauna, flora e cultura da região, em especial a homenagem aos aguadeiros. Além disso, incentivar a conscientização ambiental por meio de atividades de preservação.</p>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Projeto Arboriza Abaeté: Plantando Vida e Cultura na Terra Sagrada</h3>
+                    <p>Promover o replantio de mudas nativas da Área de Proteção Ambiental das Lagoas e Dunas do Abaeté, em parceria com o terreiro Ilê Axé Oyá Balé, fortalecendo a preservação ambiental e valorizando a cultura local. O projeto também visa fornecer suporte às comunidades envolvidas através de cestas básicas e identidade visual unificada.</p>
+                </div>
+
+                <div class="carousel-item">
+                    <h3>Peixe Amigo: Aquicultura e Nutrição para Todos</h3>
+                    <p>Criar um sistema de produção de tilápias em um ambiente ecologicamente equilibrado, ao mesmo tempo em que promove ações sociais de distribuição de peixes para famílias carentes da região de Itapuã, em Salvador, Bahia. A iniciativa busca unir sustentabilidade ambiental e social, contribuindo para o fortalecimento da segurança alimentar local.</p>
+                </div>
+            </div>
+            <div class="carousel">
+                
+            </div>
+        </section>
+
+        <section class="como-ajudar">
+            <h2>Como ajudar</h2>
+            <p>Sua contribuição é fundamental para que a AAPBA continue realizando seu trabalho e garantindo que mais pessoas com deficiência tenham acesso ao esporte.</p>
+            <p>Doe agora via PIX:</p>
+            <div class="pix">
+                <p>Chave PIX: 28.410.649/0001-08</p>
+            </div>
+        </section>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const carouselItems = document.querySelectorAll('.carousel-item');
+            let currentItem = 0;
+    
+            function showItem(index) {
+                carouselItems.forEach(item => item.style.display = 'none');
+                carouselItems[index].style.display = 'block';
+            }
+    
+            setInterval(() => {
+                currentItem = (currentItem + 1) % carouselItems.length;
+                showItem(currentItem);
+            }, 3000);
+    
+            showItem(currentItem);
+        });
+    </script>
+    
+    <footer>
+        <p>© 2024 AAPBA - Todos os direitos reservados.</p>
+        <p>E-mail: aapbahia@gmail.com</p>
+    </footer>
+</body>
+</html>
